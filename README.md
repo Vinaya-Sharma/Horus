@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+## The Problem
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ocular diseases affect over 2 Billion people around the world according to the WHO.  Common eye diseases include Cataracts, Age-related macular degeneration, Diabetic retinopathy and Glaucoma. 
 
-## Available Scripts
+Ocular diseases affect the patient disabling them from performing day to day operations and functions. Because, patients only begin to notice ocular diseases around the age of 35-40 many are too late to get accustomed to a regular lifestyle with improper to near-blind vision. 
 
-In the project directory, you can run:
+In extreme circumstances if diagnosis is not done in advance correctly and ocular diseases are left untreated severe blindness can occur. Each year, approximately 6 million people with undiagnosed ocular diseases are too late leading to blindness. For people who have already been diagnosed, proper treatment, wellness and guidance is not effectively provided with many patients unsure of how to properly take care of themselves. 
 
-### `npm start`
+In addition, the Covid-19 pandemic has exacerbated this problem, with screen time usage increasing by a drastic 76%. This has also greatly affected vision surgeries and office treatments which were not available during the pandemic. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The American Academy of Ophthalmology has found that ocular diseases disproportionately affect minority communities especially african americans, asian americans and latin americans. The study shows that these communities  are three times as likely to have glaucoma and 4 times as likely to go blind because of a lack of proper detection. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In addition, many living in rural and impoverished areas are unable to access proper medical and health services. In addition, there are many psychological, social and communication barriers that prevent many users from getting the services that they need. Ocular disease prejudice is also am rising problem with a lack of proper education on treatments, diagnosis and prevention available for patients. 
 
-### `npm test`
+A comprehensive study done by the J Community Health, shows that medication cost, emotional distress, and inadequate follow ups lead to increased medical impairment. Furthermore 61% of ocular disease patients experience barriers to proper treatment including mistrust in the medical healthcare system. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This has cultivated the need for a platform to help doctors and patients suffering from ocular diseases through a safe, affordable and economical method. 
 
-### `npm run build`
+## Our Solution: Horus 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The problem had called for a cheap and accessible application which can help cater to people from all walks of society including different racial and economics backgrounds. After finding that patient eye self-care and accessibility to proper resources and services was lacking, this application bore fruit. This accessible application allows for preliminary ocular disease diagnosis though our developed machine learning algorithm. Our lifestyle sections serves as necessary guidance and reminders on health-checkups, personalised diet guidance, eye exercises and more. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Our app helps serve as a doctor patient management system helping ease the communication in an online setting. The app is tailored to suit all the of an Ocular Disease patient centering its focus on EYE health. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The applications core features include: 
+Disease Diagnosis
+Doctor Patient Communication
+Treatment/Medication Centers
+Eye Lifestyle, Care tips
 
-### `npm run eject`
+This application is designed to suit the needs of both the patient as well as a doctor helping serve as a complementary application for all to use. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Disease Diagnosis
+This works by classifying types of corneal ulcers through a machine learning based algorithm deployed on azure. This will use convolutional neural networks in order to predict the eye diseases. The ease in our application is simply that it will provide patients with an opportunity for initial stage diagnosis by taking a picture from a phone of the eye and uploading it to our application. This service helps solve the in-accessibility of medical services and diagnosis
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Doctor Patient Communication
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Doctors and patients can communicate in a safe a secure platform where they can send and share medical files through our blockchain secured data-storage system. Optimetrics on patient current treatment, diagnosis, procedures will be provided here to allow for ease. Comprehensive doctor reports will also be provided in this section including current stages, treatments and visual progres for patients. This service is important because it encourages patients to take care of their eye health by viewing their progress.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Treatment/Medication Centers
+This sections links patients to local medical centers where patients can get access to treatment services, book eye appointments/checks and buy medication. The service gathers information on the locality of the patient and through sorting through reviews selects the most optimals service suggestions. 
+Eye Lifestyle
+This will include tips on lifestyle including food choices, set screen time limits, eye exercises and more. Basic information on ocular diseases will are also provided in this section. The service is specifically tailored to solve the problem of patients not having information on care tips and lack the necessary guidance. This part of the application will solve the problem of the lack self-care between patients through the system of alerts and progress which doctors themselves can track and make suggestions with. 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## More Info
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ocular Disease Detection: Code: https://github.com/thequickbrownfoxjumpedoverthelazydog/Ocular-Disease-Classifier
+The artificial intelligence skills used in this project is primarily for the machine learning algorithm developed to diagnose the category of corneal ulcers based on images of the human eye. 
 
-### Code Splitting
+The different classifications include: 
+Point-like corneal ulcers. 
+Point-flaky mixed corneal ulcers. 
+Flaky corneal ulcers. 
+The application collects the image data from a user and parses it through a convolutional neural network in order to return the possibility of different ulcers. 
+The different API’s used include: Tensorflow, Matplotlib, CV2, OS, Numpy, and Pandas. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Web Application:alexmehta/imagine-cup-jr-backend (github.com)
+In order to completely integrate the application with our artificial intelligence technology to be user-friendly and accessible to our users, we developed a graphical front end. This will be accessible by both our doctors and patients to streamline effective communication and for all our additional services. 
+The technology React, react router, axios, tailwind
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
